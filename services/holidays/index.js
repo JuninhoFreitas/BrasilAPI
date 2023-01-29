@@ -70,13 +70,13 @@ export function getEasterHolidays(year) {
   holidays.push({
     date: formatDate(movingDate),
     name: 'Carnaval',
-    type: 'national',
+    type: 'facultative',
   });
   movingDate.setDate(movingDate.getDate() + 107);
   holidays.push({
     date: formatDate(movingDate),
     name: 'Corpus Christi',
-    type: 'national',
+    type: 'facultative',
   });
   return holidays;
 }
